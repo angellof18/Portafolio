@@ -9,7 +9,7 @@ export const Navbar = () => {
 
     return (
         <div>
-            <nav className="navbar is-transparent is-spaced is-black">
+            <nav className="navbar is-fixed-top is-transparent is-spaced is-black">
                 <div className="navbar-brand">
                     <div className="navbar-item">
                         <p className="subtitle is-size-4 has-text-info">PORTAFOLIO</p>
