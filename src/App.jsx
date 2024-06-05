@@ -8,14 +8,16 @@ import { Skills } from "./Components/Skills"
 function App() {
 
   return (
-    <section className="section">
+    <>
       <Navbar />
       <Hero />
-      <Contacto />
-      <About />
-      <Skills />
-      <Footer />
-    </section>
+      <section className="section">
+        <Contacto />
+        <About />
+        <Skills />
+        <Footer />
+      </section>
+    </>
   )
 }
 
