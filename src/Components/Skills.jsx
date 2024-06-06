@@ -70,6 +70,14 @@ export const Skills = () => {
                   <span className='has-text-weight-light'>Github</span>
                 </div>
               </div>
+              <div className="cell">
+                <div className="box" data-aos="fade-up">
+                  <span className='icon-text mr-3'>
+                    <img className='icon' src="./icons/python.png" alt="" />
+                  </span>
+                  <span className='has-text-weight-light'>Python</span>
+                </div>
+              </div>
             </div>
           </div>
           <br />
