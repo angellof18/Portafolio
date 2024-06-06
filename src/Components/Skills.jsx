@@ -11,9 +11,7 @@ export const Skills = () => {
     <div id='skills'>
       <div className="columns is-centered is-vcentered">
         <div className="column is-four-fifths">
-          <hr className="divider" />
-          <br />
-          <p className="subtitle has-text-white">Skills</p>
+          <p className="subtitle has-text-white">HABILIDADES</p>
           <div className="fixed-grid has-4-cols-desktop has-2-cols-mobile">
             <div className="grid">
               <div className="cell">

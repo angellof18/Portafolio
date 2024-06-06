@@ -6,9 +6,8 @@ export const Projects = () => {
         <div id='projects'>
             <div className="columns is-centered is-vcentered">
                 <div className="column is-four-fifths">
-                    <hr className="divider" />
                     <br />
-                    <p className="subtitle has-text-white">Proyectos</p>
+                    <p className="subtitle has-text-white">PROYECTOS</p>
                     <div className="box">
                         <div className="container">
                             <div className="hero">
