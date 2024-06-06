@@ -14,8 +14,6 @@ export const Meetus = () => {
     return (
         <div className="columns is-vcentered">
             <div className="column is-half">
-                <p>MEETUS</p>
-                <br />
                 <div className="field is-grouped is-grouped-multiline">
                     <div className="control">
                         <div className="tags has-addons">
@@ -41,23 +39,16 @@ export const Meetus = () => {
                             </span>
                         </div>
                     </div>
+                    <div className="control">
+                        <div className="tags has-addons">
+                            <span className="tag is-dark">MySQL</span>
+                            <span className="tag is-danger">
+                                <i class="bi bi-database-fill"></i>
+                            </span>
+                        </div>
+                    </div>
                 </div>
-                <p>Ofrece una experiencia interactiva de chat en tiempo real utilizando sockets. La plataforma permite a los usuarios conectarse instantáneamente y participar en conversaciones grupales o individuales.</p>
-                <br />
-                <div className="buttons">
-                    <a className="button is-info is-outlined" href='https://meetus-d2da.onrender.com' target='_blank'>
-                        <span icon>
-                            <i className="bi bi-globe"></i>
-                        </span>
-                        <span className='ml-3'>Demostracion</span>
-                    </a>
-                    <a className="button is-info is-outlined" href='https://github.com/angellof18/Meetus' target='_blank'>
-                        <span icon>
-                            <i className="bi bi-git"></i>
-                        </span>
-                        <span className='ml-3'>Repositorio</span>
-                    </a>
-                </div>
+                <p className='has-text-weight-light'>Ofrece una experiencia interactiva de chat en tiempo real utilizando sockets. La plataforma permite a los usuarios conectarse instantáneamente y participar en conversaciones grupales o individuales.</p>
             </div>
 
             <div className="column is-hidden-mobile">

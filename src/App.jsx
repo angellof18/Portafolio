@@ -13,8 +13,6 @@ function App() {
       <Navbar />
       <Hero />
       <section className="section">
-        <Contacto />
-        <About />
         <Skills />
         <Projects />
       </section>

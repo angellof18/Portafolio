@@ -5,9 +5,6 @@ export const Contacto = () => {
         <div id='contacto'>
             <div className='columns is-centered is-vcentered'>
                 <div className="column is-two-thirds">
-                    <hr className="divider" />
-                    <br />
-                    <p className="subtitle has-text-white">Contacto</p>
                     <div className="fixed-grid has-auto-count">
                         <div className="grid">
                             <div className="cell">

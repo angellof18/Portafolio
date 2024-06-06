@@ -1,17 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from 'aos'
 
 export const Skills = () => {
+
+  useEffect(() => {
+    Aos.init()
+  }, [])
+
   return (
     <div id='skills'>
       <div className="columns is-centered is-vcentered">
-        <div className="column is-two-thirds">
+        <div className="column is-four-fifths">
           <hr className="divider" />
           <br />
           <p className="subtitle has-text-white">Skills</p>
-          <div className="fixed-grid has-auto-count">
+          <div className="fixed-grid has-4-cols-desktop has-2-cols-mobile">
             <div className="grid">
               <div className="cell">
-                <div className="box">
+                <div className="box" data-aos="fade-up">
                   <span className='icon-text mr-3'>
                     <img className='icon' src="./icons/html.png" alt="" />
                   </span>
@@ -19,7 +25,7 @@ export const Skills = () => {
                 </div>
               </div>
               <div className="cell">
-                <div className="box">
+                <div className="box" data-aos="fade-up">
                   <span className='icon-text mr-3'>
                     <img className='icon' src="./icons/css.png" alt="" />
                   </span>
@@ -27,7 +33,7 @@ export const Skills = () => {
                 </div>
               </div>
               <div className="cell">
-                <div className="box">
+                <div className="box" data-aos="fade-up">
                   <span className='icon-text mr-3'>
                     <img className='icon' src="./icons/js.png" alt="" />
                   </span>
@@ -35,7 +41,7 @@ export const Skills = () => {
                 </div>
               </div>
               <div className="cell">
-                <div className="box">
+                <div className="box" data-aos="fade-up">
                   <span className='icon-text mr-3'>
                     <img className='icon' src="./icons/mysql.png" alt="" />
                   </span>
@@ -43,7 +49,7 @@ export const Skills = () => {
                 </div>
               </div>
               <div className="cell">
-                <div className="box">
+                <div className="box" data-aos="fade-up">
                   <span className='icon-text mr-3'>
                     <img className='icon' src="./icons/node.png" alt="" />
                   </span>
@@ -51,7 +57,7 @@ export const Skills = () => {
                 </div>
               </div>
               <div className="cell">
-                <div className="box">
+                <div className="box" data-aos="fade-up">
                   <span className='icon-text mr-3'>
                     <img className='icon' src="./icons/react.png" alt="" />
                   </span>
@@ -59,7 +65,7 @@ export const Skills = () => {
                 </div>
               </div>
               <div className="cell">
-                <div className="box">
+                <div className="box" data-aos="fade-up">
                   <span className='icon-text mr-3'>
                     <img className='icon' src="./icons/github.png" alt="" />
                   </span>
