@@ -3,6 +3,7 @@ import { Contacto } from "./Components/Contacto"
 import { Footer } from "./Components/Footer"
 import { Hero } from "./Components/Hero"
 import { Navbar } from "./Components/Navbar"
+import { Projects } from "./Components/Projects"
 import { Skills } from "./Components/Skills"
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
         <Contacto />
         <About />
         <Skills />
-        <Footer />
+        <Projects />
       </section>
+      <Footer />
     </>
   )
 }

@@ -9,7 +9,7 @@ export const Navbar = () => {
 
     return (
         <div>
-            <nav className="navbar is-fixed-top is-transparent is-spaced is-black">
+            <nav className="navbar is-fixed-top is-transparent is-spaced has-shadow	is-black">
                 <div className="navbar-brand">
                     <div className="navbar-item">
                         <p className="subtitle is-size-4 has-text-info">PORTAFOLIO</p>
@@ -26,10 +26,10 @@ export const Navbar = () => {
                 <div className={`navbar-menu ${active && 'is-active'}`}>
                     <div className="navbar-start">
                         <a href="#" className="navbar-item">Inicio</a>
-                        <a href="#" className="navbar-item">Sobre mi</a>
+                        <a href="#about" className="navbar-item">Sobre mi</a>
                         <a href="#" className="navbar-item">Proyectos</a>
-                        <a href="#" className="navbar-item">Skills</a>
-                        <a href="#" className="navbar-item">Contacto</a>
+                        <a href="#skills" className="navbar-item">Skills</a>
+                        <a href="#contacto" className="navbar-item">Contacto</a>
                     </div>
                 </div>
             </nav>
