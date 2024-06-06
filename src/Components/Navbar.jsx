@@ -11,9 +11,9 @@ export const Navbar = () => {
         <div>
             <nav className="navbar is-fixed-top is-transparent is-spaced has-shadow	is-black">
                 <div className="navbar-brand">
-                    <div className="navbar-item">
+                    <a className="navbar-item" href='#'>
                         <p className="subtitle is-size-4 has-text-info">PORTAFOLIO</p>
-                    </div>
+                    </a>
 
                     <a className={`navbar-burger ${active && 'is-active'}`}
                     onClick={handleActive}>
@@ -25,9 +25,8 @@ export const Navbar = () => {
                 </div>
                 <div className={`navbar-menu ${active && 'is-active'}`}>
                     <div className="navbar-start">
-                        <a href="#" className="navbar-item">Inicio</a>
                         <a href="#about" className="navbar-item">Sobre mi</a>
-                        <a href="#" className="navbar-item">Proyectos</a>
+                        <a href="#projects" className="navbar-item">Proyectos</a>
                         <a href="#skills" className="navbar-item">Skills</a>
                         <a href="#contacto" className="navbar-item">Contacto</a>
                     </div>

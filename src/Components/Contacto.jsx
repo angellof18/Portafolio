@@ -11,7 +11,7 @@ export const Contacto = () => {
                     <div className="fixed-grid has-auto-count">
                         <div className="grid">
                             <div className="cell">
-                                <a className="box has-text-centered">
+                                <a className="box has-text-centered" href='https://github.com/angellof18' target='_blank'>
                                     <span className="icon-text">
                                         <span className="icon">
                                             <i class="bi bi-github"></i>
