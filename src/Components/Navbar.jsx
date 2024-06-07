@@ -16,7 +16,7 @@ export const Navbar = () => {
                     </a>
 
                     <a className={`navbar-burger ${active && 'is-active'}`}
-                    onClick={handleActive}>
+                        onClick={handleActive}>
                         <span></span>
                         <span></span>
                         <span></span>

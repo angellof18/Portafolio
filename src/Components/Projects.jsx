@@ -1,14 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Meetus } from './Projects/Meetus'
+import Aos from 'aos'
 
 export const Projects = () => {
+    useEffect(() => {
+        Aos.init()
+    }, [])
+
     return (
         <div id='projects'>
             <div className="columns is-centered is-vcentered">
                 <div className="column is-four-fifths">
                     <br />
                     <p className="subtitle has-text-white">PROYECTOS</p>
-                    <div className="box">
+                    <div className="box" data-aos="zoom-in">
                         <div className="container">
                             <div className="hero">
                                 <header className="hero-head">
@@ -35,8 +40,6 @@ export const Projects = () => {
                                 </footer>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
