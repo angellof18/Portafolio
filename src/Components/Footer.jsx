@@ -91,6 +91,7 @@ export const Footer = () => {
           </form>
 
         </div>
+        
         <div className="column">
           <Contacto />
         </div>

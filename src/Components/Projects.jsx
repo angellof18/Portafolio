@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import { Meetus } from './Projects/Meetus'
 import Aos from 'aos'
+import { Meetus } from './Projects/Meetus'
 
 export const Projects = () => {
     useEffect(() => {

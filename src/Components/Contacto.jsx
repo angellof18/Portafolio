@@ -17,16 +17,7 @@ export const Contacto = () => {
                                     </span>
                                 </a>
                             </div>
-                            <div className="cell">
-                                <a className="box has-text-centered">
-                                    <span className="icon-text">
-                                        <span className="icon">
-                                            <i class="bi bi-linkedin"></i>
-                                        </span>
-                                        <span className='has-text-weight-light'>Linkedin</span>
-                                    </span>
-                                </a>
-                            </div>
+                            
                             <div className="cell">
                                 <a className="box has-text-centered">
                                     <span className="icon-text">

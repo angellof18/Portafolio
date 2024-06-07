@@ -1,6 +1,6 @@
 import React from 'react'
-import heroStyles from '../Styles/Hero.module.css'
-import animationStyles from '../Styles/Animation.module.css'
+import heroStyles from './Styles/Hero.module.css'
+import animationStyles from './Styles/Animation.module.css'
 
 export const Hero = () => {
 
@@ -14,7 +14,7 @@ export const Hero = () => {
                                 <div className="columns is-centered is-vcentered">
                                     <div className="column is-one-third is-hidden-mobile">
                                         <figure className="image">
-                                            <img src="./avatar1.png" alt="" />
+                                            <img src="./avatar.png" alt="" />
                                         </figure>
                                     </div>
                                     <div className="column is-two-thirds">

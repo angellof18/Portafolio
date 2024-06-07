@@ -1,15 +1,7 @@
-import bulmaCarousel from 'bulma-carousel';
 import React, { useEffect } from 'react'
+import generalStyle from '../Styles/General.module.css'
 
 export const Meetus = () => {
-
-    useEffect(() => {
-        bulmaCarousel.attach('#carousel-demo', {
-            slidesToScroll: 1,
-            slidesToShow: 1
-        });
-    }, []);
-
 
     return (
         <div className="columns is-vcentered">
@@ -47,34 +39,26 @@ export const Meetus = () => {
                             </span>
                         </div>
                     </div>
+                    <div className="control">
+                        <div className="tags has-addons">
+                            <span className="tag is-dark">Bulma CSS</span>
+                            <span className="tag is-light">
+                                <span className="icon is-small" >
+                                    <img src="/icons/bulma.png" alt="" style={{ height: '12px' }} />
+                                </span>
+                            </span>
+                        </div>
+                    </div>
                 </div>
+                <br />
                 <p className='has-text-weight-light'>Ofrece una experiencia interactiva de chat en tiempo real utilizando sockets. La plataforma permite a los usuarios conectarse instantáneamente y participar en conversaciones grupales o individuales.</p>
             </div>
 
-            <div className="column is-hidden-mobile">
+            <div className="column ">
 
-                <section class="hero is-medium has-carousel">
-                    <div id="carousel-demo" class="hero-carousel">
-                        <div class="item-1">
-                            <figure className="image is-16by9">
-                                <img src="/meetus/login.png" alt="" />
-                            </figure>
-                        </div>
-                        <div class="item-2">
-                            <figure className="image is-16by9">
-                                <img src="/meetus/main.png" alt="" />
-                            </figure>
-                        </div>
-                        <div class="item-3">
-                            <figure className="image is-16by9">
-                                <img src="/meetus/chat.png" alt="" />
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="hero-head"></div>
-                    <div class="hero-body"></div>
-                    <div class="hero-foot"></div>
-                </section>
+                <figure className="image is-16by9">
+                    <img className={`${generalStyle.border}`} src="/meetus/main.png" alt="" />
+                </figure>
 
             </div>
         </div>
