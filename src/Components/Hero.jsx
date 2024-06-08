@@ -23,7 +23,7 @@ export const Hero = () => {
                                             <p className={`${animationStyles.animated} ${animationStyles.fadeInUp} subtitle is-size-3 has-text-info`}>Desarrollador Web</p>
                                             <p className='is-size-6 has-text-light has-text-weight-light'>Soy un joven entusiasta de la tecnología y un apasionado de la programación web. Desde que me adentré en el mundo de la creación digital, he estado inmerso en el desarrollo web, explorando sus múltiples facetas y siempre desafiando mis habilidades.</p>
 
-                                            <button className="button is-info is-outlined mt-6"
+                                            <button className="button is-info mt-6"
                                             onClick={() => window.open('/cv.pdf', '_blank')}>
                                                 <span className="icon is-small">
                                                     <i class="bi bi-box-arrow-down"></i>

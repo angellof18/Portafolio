@@ -76,7 +76,7 @@ export const Footer = () => {
               <div className="field-body">
                 <div className="field">
                   <div className="control has-text-left">
-                    <button type='submit' className="button is-info is-outlined">
+                    <button type='submit' className="button is-info">
                       <span className="icon">
                         <i className="bi bi-send-fill"></i>
                       </span>

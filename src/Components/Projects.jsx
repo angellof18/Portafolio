@@ -12,10 +12,10 @@ export const Projects = () => {
     return (
         <div id='projects'>
             <div className="columns is-centered is-vcentered">
-                <div className="column is-four-fifths">
+                <div className="column is-12">
                     <br />
-                    <p className="subtitle has-text-white">PROYECTOS</p>
-                    <div className="box" data-aos="zoom-in">
+                    <p className="subtitle ">PROYECTOS</p>
+                    <div className="box" data-theme="dark" data-aos="zoom-in">
                         <div className="container">
                             <div className="hero">
                                 <header className="hero-head">
@@ -26,7 +26,7 @@ export const Projects = () => {
                                 </main>
                                 <footer className="hero-foot">
                                     <div className="buttons">
-                                        <a className="button is-info is-outlined" href='https://meetus-d2da.onrender.com' target='_blank'>
+                                        <a className="button is-info" href='https://meetus-d2da.onrender.com' target='_blank'>
                                             <span icon>
                                                 <i className="bi bi-globe"></i>
                                             </span>
@@ -44,7 +44,7 @@ export const Projects = () => {
                         </div>
                     </div>
 
-                    <div className="box" data-aos="zoom-in">
+                    <div className="box" data-theme="dark" data-aos="zoom-in">
                         <div className="container">
                             <div className="hero">
                                 <header className="hero-head">
@@ -55,7 +55,7 @@ export const Projects = () => {
                                 </main>
                                 <footer className="hero-foot">
                                     <div className="buttons">
-                                        <a className="button is-info is-outlined" href='https://signal-clon.onrender.com/' target='_blank'>
+                                        <a className="button is-info" href='https://signal-clon.onrender.com/' target='_blank'>
                                             <span icon>
                                                 <i className="bi bi-globe"></i>
                                             </span>
