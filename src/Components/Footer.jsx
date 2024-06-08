@@ -7,7 +7,7 @@ export const Footer = () => {
   return (
     <footer className="footer has-text-centered">
       <div className="columns">
-        <div className="column is-two-thirds">
+        <div className="column is-two-thirds has-text-left">
 
           <form action="https://formsubmit.co/5782711d06bfc79dab966069f374f92c" method='POST' className="form">
             <div className="field is-horizontal">

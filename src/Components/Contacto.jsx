@@ -19,7 +19,7 @@ export const Contacto = () => {
                             </div>
                             
                             <div className="cell">
-                                <a className="box has-text-centered">
+                                <a href='mailto:arteaga.angel.1720@hotmail.com' className="box has-text-centered">
                                     <span className="icon-text">
                                         <span className="icon">
                                             <i class="bi bi-envelope-at-fill"></i>

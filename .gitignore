@@ -12,6 +12,8 @@ node_modules
 dist
 dist-ssr
 *.local
+DividerArrow.css
+DividerWithArrow.jsx
 
 # Editor directories and files
 .vscode/*
