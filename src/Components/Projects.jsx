@@ -15,7 +15,7 @@ export const Projects = () => {
             <div className="columns is-centered is-vcentered">
                 <div className="column is-10">
                     <br />
-                    <p className="subtitle is-size-3">PROYECTOS</p>
+                    <h2 className="subtitle is-size-3">PROYECTOS</h2>
 
 
                     <div className="columns is-vcentered">

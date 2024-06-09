@@ -11,7 +11,7 @@ export const Skills = () => {
     <div id='skills'>
       <div className="columns is-centered is-vcentered">
         <div className="column is-10">
-          <p className="subtitle is-size-3">HABILIDADES</p>
+          <h2 className="subtitle is-size-3">HABILIDADES</h2>
           <div className="fixed-grid has-4-cols-desktop has-2-cols-mobile">
             <div className="grid">
               <div className="cell">

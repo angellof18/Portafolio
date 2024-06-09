@@ -33,11 +33,11 @@ export const Hero = () => {
 
                                         <div>
                                             <span className="tag is-rounded is-success is-hidden-mobile">Disponible para trabajar</span>
-                                            <p className='title is-size-1 has-text-black animate__animated animate__faster animate__fadeInUp'>Angel Arteaga</p>
-                                            <p className='subtitle is-size-3 has-text-link animate__animated animate__faster animate__fadeInUp'>Desarrollador Web</p>
+                                            <h1 className='title is-size-1 has-text-black animate__animated animate__faster animate__fadeInUp'>Angel Arteaga</h1>
+                                            <h2 className='subtitle is-size-3 has-text-link animate__animated animate__faster animate__fadeInUp'>Desarrollador Web</h2>
                                             <p className='is-size-6'>Soy un joven entusiasta de la tecnología y un apasionado de la programación web. Desde que me adentré en el mundo de la creación digital, he estado inmerso en el desarrollo web, explorando sus múltiples facetas y siempre desafiando mis habilidades.</p>
 
-                                            <button className="button is-link mt-6"
+                                            <button className={`button is-link mt-6 ${imageStyle.button}`}
                                                 onClick={() => window.open('/cv.pdf', '_blank')}>
                                                 <span className="icon is-small">
                                                     <i class="bi bi-box-arrow-down"></i>

@@ -8,3 +8,12 @@
     clip-path: ellipse(50% 50% at center);
     border: 2px solid #d3d3d3;
 }
+
+.button {
+    transition: all 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    background-color: #333;
+}

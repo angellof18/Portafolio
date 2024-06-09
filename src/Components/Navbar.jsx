@@ -12,7 +12,7 @@ export const Navbar = () => {
             <nav className="navbar is-fixed-top is-transparent has-shadow is-spaced">
                 <div className="navbar-brand">
                     <a className="navbar-item" href='#'>
-                        <p className="subtitle is-size-4 has-text-link">PORTAFOLIO</p>
+                        <p className="is-size-5 has-text-weight-medium">PORTAFOLIO</p>
                     </a>
 
                     <a className={`navbar-burger ${active && 'is-active'}`}
