@@ -13,12 +13,12 @@ export const Hero = () => {
                                 <div className="columns is-vcentered">
                                     <div className="column is-one-third is-hidden-mobile">
                                         <figure className='image'>
-                                            <img className={`${imageStyle.circle}`} src="./avatar.png" alt="" />
+                                            <img className={`animate__animated animate__fadeInUp animate__faster ${imageStyle.circle}`} src="./avatar.png" alt="" />
                                         </figure>
                                     </div>
 
                                     <div className="column is-two-thirds">
-                                        <div className="fixed-grid has-12-cols is-hidden-desktop">
+                                        <div className="fixed-grid has-12-cols is-hidden-desktop is-hidden-tablet is-hidden-widescreen is-hidden-fullhd">
                                             <div className="grid">
                                                 <div className="cell">
                                                     <figure className={`image is-96x96 ${imageStyle.circle}`}>

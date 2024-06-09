@@ -50,7 +50,7 @@ export const Projects = () => {
                     <br /><br /><br />
 
                     <div className="columns is-vcentered">
-                        <div className="column is-7 is-hidden-desktop" data-aos="fade-left">
+                        <div className="column is-7 is-hidden-desktop is-hidden-tablet is-hidden-widescreen is-hidden-fullhd" data-aos="fade-left">
                             <figure className='image'>
                                 <img className={styles.border} src="/signal/main.png" alt="" />
                             </figure>
