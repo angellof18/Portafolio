@@ -61,13 +61,13 @@ export const Projects = () => {
                             <Signal_clon />
                             <br />
                             <div className="buttons">
-                                <a className="button is-link" href='https://meetus-d2da.onrender.com' target='_blank'>
+                                <a className="button is-link" href='https://signal-clon.onrender.com' target='_blank'>
                                     <span icon>
                                         <i className="bi bi-globe"></i>
                                     </span>
                                     <span className='ml-3'>Demostracion</span>
                                 </a>
-                                <a className="button is-link is-outlined" href='https://github.com/angellof18/Meetus' target='_blank'>
+                                <a className="button is-link is-outlined" href='https://github.com/angellof18/Signal_clon' target='_blank'>
                                     <span icon>
                                         <i className="bi bi-git"></i>
                                     </span>
