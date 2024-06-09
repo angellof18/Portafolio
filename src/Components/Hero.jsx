@@ -26,7 +26,7 @@ export const Hero = () => {
                                                     </figure>
                                                 </div>
                                                 <div className="cell is-col-span-11">
-                                                    <span class="tag is-rounded is-medium is-success">Disponible para trabajar</span>
+                                                    <span class="tag is-rounded is-success">Disponible para trabajar</span>
                                                 </div>
                                             </div>
                                         </div>
