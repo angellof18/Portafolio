@@ -1,3 +1,10 @@
 .border {
     border-radius: 10px !important;
+    border: 2px solid #d3d3d3;
+}
+
+.circle {
+    border-radius: 50%;
+    clip-path: ellipse(50% 50% at center);
+    border: 2px solid #d3d3d3;
 }

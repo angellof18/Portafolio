@@ -4,6 +4,7 @@ import App from './App.jsx'
 import 'bulma/css/bulma.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.min.css'
 import 'aos/dist/aos.css'
+import 'animate.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
